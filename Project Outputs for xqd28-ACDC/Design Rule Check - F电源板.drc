@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\workspace\ee\xqd28-ACDC\F电源板.PcbDoc
+PCB File : D:\workspace\xqd28-ACDC\F电源板.PcbDoc
 Date     : 2026/10/4
-Time     : 11:26:24
+Time     : 21:33:29
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -9,10 +9,13 @@ Rule Violations :0
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=15mil) (Max=40mil) (Preferred=25mil) (InNetClass('PWR'))
+Processing Rule : Width Constraint (Min=8mil) (Max=15mil) (Preferred=10mil) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=8mil) (Max=15mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=10mil) (Max=50mil) (Preferred=39.37mil) (InNetClass('AC'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=40mil) (Preferred=20mil) (InNetClass('PWR'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)

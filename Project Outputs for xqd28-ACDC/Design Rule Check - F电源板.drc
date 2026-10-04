@@ -1,7 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : D:\workspace\xqd28-ACDC\FµÁ‘¥∞Â.PcbDoc
 Date     : 2026/10/4
-Time     : 21:33:29
+Time     : 23:41:40
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: NONET_L03_P015 In net +12V On PWR
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -45,4 +48,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

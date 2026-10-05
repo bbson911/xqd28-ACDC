@@ -1,15 +1,18 @@
 Protel Design System Design Rule Check
 PCB File : D:\workspace\xqd28-ACDC\FµÁ‘¥∞Â.PcbDoc
-Date     : 2026/10/4
-Time     : 23:41:40
-
-WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
-   Polygon named: NONET_L03_P015 In net +12V On PWR
+Date     : 2026/10/5
+Time     : 12:59:55
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
 
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
 Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=8mil) (Max=15mil) (Preferred=10mil) (All)
